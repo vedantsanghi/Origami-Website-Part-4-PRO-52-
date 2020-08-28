@@ -1,0 +1,77 @@
+h1 {
+    color: #F70000
+}
+.Header{
+    background-color: #75EAFF;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Menu{
+  font-style: oblique;
+  
+}
+a{
+    text-decoration: none;
+}
+a:link{
+color: white;
+}
+a:visited{
+color: white;
+}
+
+.chameleon img:hover{
+transform: scale(1.3);
+}
+
+.pigeon img:hover{
+    transform: scale(1.3);
+}
+
+.main{ 
+    /* font-weight: 200; */
+    font-style: oblique;
+    font-family: fantasy;
+ }  
+.chameleon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 10px;
+    width: 1200px;
+}
+.chameleon img{
+    border: 2px solid #000000;
+    border-radius: 80px
+}
+.fact1{
+    display: flex;
+    justify-content: right;
+    font-family: cursive;
+}
+.pigeon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 10px;
+    width: 1000px;
+}
+.pigeon img{
+    border: 2px solid #000000;
+    border-radius: 40px
+}
+.fact2{
+    display: flex;
+    justify-content: left;
+    font-family: cursive;
+}
+.origamis{
+    background-color:#A7FFC4;
+}
+body{
+    background-color: #F7F2F2;
+    margin: 10px;
+}
